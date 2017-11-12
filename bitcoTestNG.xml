@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BITCO" parallel="tests" thread-count="4"
+	preserve-order="true">
+
+	<test name="BITCO ONE">
+		<classes>
+			<class name="com.scraper.BitcoinScrapper.BitcoVerifier1" />
+		</classes>
+	</test>
+
+	<test name="BITCO TWO">
+		<classes>
+			<class name="com.scraper.BitcoinScrapper.BitcoVerifier2" />
+		</classes>
+	</test>
+
+	<test name="BITCO THREE">
+		<classes>
+			<class name="com.scraper.BitcoinScrapper.BitcoVerifier3" />
+		</classes>
+	</test>
+
+	<test name="BITCO FOUR">
+		<classes>
+			<class name="com.scraper.BitcoinScrapper.BitcoVerifier4" />
+		</classes>
+	</test>
+</suite>
